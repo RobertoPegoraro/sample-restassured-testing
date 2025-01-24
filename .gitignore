@@ -1,0 +1,17 @@
+# Exclude IntelliJ IDEA specific files and folders
+.idea/
+*.iml
+
+# Exclude logs, compiled code, and other unnecessary files
+/out/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# Exclude OS-specific files
+.DS_Store
+Thumbs.db
+
+target/

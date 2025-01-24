@@ -1,0 +1,1 @@
+A simple RestAssured project for API testing, showcasing coding best practices.
