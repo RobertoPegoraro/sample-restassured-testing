@@ -1,11 +1,11 @@
-package com.example.restassured.model.response;
+package com.example.restassured.domain.user.model;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class UsersResponse {
+public class UserResponse {
 
     private Long id;
 

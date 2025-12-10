@@ -1,4 +1,4 @@
-package com.example.restassured.enums;
+package com.example.restassured.domain.user.enums;
 
 public enum UserStatus {
 

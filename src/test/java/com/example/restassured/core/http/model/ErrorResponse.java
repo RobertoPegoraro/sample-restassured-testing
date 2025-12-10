@@ -1,4 +1,4 @@
-package com.example.restassured.model.response;
+package com.example.restassured.core.http.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

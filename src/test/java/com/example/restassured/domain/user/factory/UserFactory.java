@@ -1,13 +1,13 @@
-package com.example.restassured.factory;
+package com.example.restassured.domain.user.factory;
 
-import com.example.restassured.enums.UserStatus;
-import com.example.restassured.model.request.UsersRequest;
+import com.example.restassured.domain.user.enums.UserStatus;
+import com.example.restassured.domain.user.model.UserRequest;
 import com.example.restassured.utils.FakerUtils;
 
-public class UserRequestFactory {
+public class UserFactory {
 
-    public static UsersRequest generateNewUserData() {
-        return UsersRequest.builder()
+    public static UserRequest generateNewUserData() {
+        return UserRequest.builder()
                 .name(FakerUtils.generateRandomName())
                 .email(FakerUtils.generateRandomEmail())
                 .gender(FakerUtils.generateRandomGender())
